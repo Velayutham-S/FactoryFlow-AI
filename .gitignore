@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration and secrets
+# `env/` below matches a virtualenv directory, not this file, so `.env` is listed
+# explicitly. It holds GROQ_API_KEY and must never be committed.
+.env
+.env.*
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite Database
+*.db
+*.sqlite
+*.sqlite3
+
+# WAL Files
+*.db-wal
+*.db-shm
+
+# Python Build
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# FactoryFlow generated / acceptance artifacts
+_acceptance/
