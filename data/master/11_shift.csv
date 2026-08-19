@@ -1,0 +1,5 @@
+shift_code,plant_code,shift_name,start_time,end_time,crosses_midnight,shift_type,sequence_order,is_production_shift,break_duration_minutes
+SH-A,PLT-01,Morning Shift,06:00,14:00,0,production,1,1,30
+SH-B,PLT-01,Afternoon Shift,14:00,22:00,0,production,2,1,30
+SH-C,PLT-01,Night Shift,22:00,06:00,1,production,3,1,45
+SH-GEN,PLT-01,General Day Shift,09:00,18:00,0,general,4,0,60

@@ -1,0 +1,6 @@
+failure_severity_level_code,severity_name,severity_rank,description,target_response_time_minutes,requires_line_stop,requires_immediate_escalation,requires_manager_acknowledgement,max_acknowledgement_minutes,display_color_hex
+SEV-1,Critical,1,"Immediate threat to safety or output. Requires the line to be stopped, immediate escalation, and manager acknowledgement within 15 minutes.",15,1,1,1,15,#C62828
+SEV-2,High,2,"Significant degradation requiring intervention within the hour. Escalated immediately and acknowledged by a manager, without stopping the line.",60,0,1,1,30,#EF6C00
+SEV-3,Medium,3,Developing condition to be addressed within the working day. Manager acknowledgement is required but immediate escalation is not.,240,0,0,1,120,#F9A825
+SEV-4,Low,4,Minor deviation recorded for routine attention. No escalation and no acknowledgement required.,1440,0,0,0,,#558B2F
+SEV-5,Informational,5,Informational notice retained for the record only. Carries no response target and no acknowledgement requirement.,,0,0,0,,#1565C0

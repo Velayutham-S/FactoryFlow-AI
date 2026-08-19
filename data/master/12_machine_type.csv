@@ -1,0 +1,7 @@
+machine_type_code,type_name,machine_category_code,manufacturer,model_number,rated_power_kw,design_life_hours,mtbf_hours,mttr_minutes,requires_tooling,min_operators_required
+MTY-VMC-500,Vertical Machining Centre 500,MCAT-CNC,Meridian Machine Tools,VMC-500-XT,18.50,60000,4200,240,1,1
+MTY-CNC-LATHE-200,CNC Turning Centre 200,MCAT-CNC,Meridian Machine Tools,TC-200-S,15.00,55000,3800,210,1,1
+MTY-CMM-BRIDGE,Bridge Coordinate Measuring Machine,MCAT-INS,Kestrel Metrology,BCM-900,3.20,70000,9500,300,0,1
+MTY-ROBO-WELD-6X,Six-Axis Robotic Welding Cell,MCAT-ASM,Aravalli Automation,RW-6X-220,22.00,48000,3200,180,0,0
+MTY-CONV-BELT-12,Belt Conveyor 12 m,MCAT-MHL,Beltrix Conveyors,BC-12-HD,4.50,80000,11000,90,0,0
+MTY-CARTON-SEAL-3,Carton Sealing Unit 3,MCAT-PKG,SealPro Systems,CS-3-AUTO,2.80,45000,6400,60,0,1

@@ -1,0 +1,4 @@
+product_code,product_name,product_family,unit_of_measure,standard_selling_price,standard_material_cost,quality_criticality,target_scrap_rate_pct,drawing_revision,introduced_date
+PRD-GH-100,Gearbox Housing GH-100,Gearbox Components,EA,4850.00,2140.00,high,1.50,Rev-C,2019-02-11
+PRD-PMP-220,Centrifugal Pump Assembly PMP-220,Pump Assemblies,EA,18600.00,9250.00,safety_critical,0.80,Rev-F,2018-07-30
+PRD-VB-075,Valve Body VB-075,Valve Components,EA,2310.00,985.00,standard,2.20,Rev-B,2020-11-05

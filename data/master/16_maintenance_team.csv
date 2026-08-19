@@ -1,0 +1,5 @@
+maintenance_team_code,team_name,department_code,shift_code,specialization,base_plant_area_code,contact_extension,max_concurrent_jobs,is_emergency_response,target_response_time_minutes
+MTM-MECH,Mechanical Maintenance Team,DEP-MNT,SH-A,mechanical,AREA-MNT,214,3,1,30
+MTM-ELEC,Electrical Maintenance Team,DEP-MNT,SH-A,electrical,AREA-MNT,215,2,1,30
+MTM-AUTO,Automation & Controls Team,DEP-MNT,SH-GEN,automation,AREA-MNT,216,2,0,120
+MTM-NIGHT,Night Response Team,DEP-MNT,SH-C,general,AREA-MNT,217,2,1,45

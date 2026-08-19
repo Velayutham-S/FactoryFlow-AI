@@ -1,0 +1,8 @@
+product_code,production_line_code,capability_type,is_primary_line,cycle_time_seconds,max_hourly_output_units,changeover_minutes,is_qualified,qualification_expiry_date,tooling_available,effective_from_date
+PRD-GH-100,LN-01,production_route,1,145.00,24.00,45,1,2027-03-31,1,2019-02-11
+PRD-VB-075,LN-03,production_route,1,95.00,36.00,30,1,,1,2020-11-05
+PRD-VB-075,LN-01,production_route,0,128.00,27.00,55,1,2026-09-30,1,2021-03-01
+PRD-PMP-220,LN-02,production_route,1,310.00,11.00,60,1,2028-01-15,1,2018-07-30
+PRD-GH-100,LN-04,finishing_stage,0,28.00,120.00,15,1,,1,2019-02-11
+PRD-VB-075,LN-04,finishing_stage,0,22.00,150.00,15,1,,1,2020-11-05
+PRD-PMP-220,LN-04,finishing_stage,0,45.00,76.00,20,1,,1,2019-01-15

@@ -1,0 +1,5 @@
+supplier_code,supplier_name,supplier_type,city,country_code,standard_lead_time_days,expedited_lead_time_days,reliability_rating,on_time_delivery_pct,is_approved_vendor,contract_expiry_date
+SUP-001,Sundaram Castings Pvt Ltd,raw_material,Coimbatore,IN,14,7,4.2,94.50,1,2027-03-31
+SUP-002,PrecisionBear Industrial Supplies,spare_part,Pune,IN,7,2,4.6,97.10,1,2028-01-31
+SUP-003,ChemLube Solutions,consumable,Chennai,IN,5,2,3.8,89.00,1,2026-12-31
+SUP-004,Hydroflow Components,component,Bengaluru,IN,21,10,4.0,91.20,1,2027-06-30

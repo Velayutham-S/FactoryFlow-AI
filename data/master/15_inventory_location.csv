@@ -1,0 +1,6 @@
+inventory_location_code,location_name,plant_area_code,location_type,capacity_slots,is_temperature_controlled,average_retrieval_time_minutes,stock_count_frequency_days
+LOC-RM-A1,Raw Material Rack A1,AREA-WHR,raw_material_store,240,0,12,30
+LOC-SP-B2,Spare Parts Bin B2,AREA-SPR,spare_parts_store,480,0,15,90
+LOC-TC-01,Tooling Crib,AREA-MCH,tooling_crib,120,0,4,30
+LOC-WP-01,WIP Buffer Line 01,AREA-MCH,wip_buffer,60,0,1,
+LOC-FG-01,Finished Goods Rack,AREA-PKG,finished_goods_store,300,0,8,30

@@ -1,0 +1,14 @@
+worker_code,first_name,last_name,worker_role_code,department_code,production_line_code,shift_code,employment_type,skill_level,hire_date
+EMP-1001,Anand,Selvam,ROL-PMGR,DEP-PRD,,SH-GEN,permanent,expert,2016-04-15
+EMP-1002,Priya,Nair,ROL-LSUP,DEP-PRD,LN-01,SH-A,permanent,senior,2016-09-01
+EMP-1003,Ravi,Kumar,ROL-OP,DEP-PRD,LN-01,SH-A,permanent,intermediate,2019-06-17
+EMP-1004,Meera,Joseph,ROL-LSUP,DEP-PRD,LN-02,SH-A,permanent,senior,2017-05-08
+EMP-1005,Karthik,Rajan,ROL-SRO,DEP-PRD,LN-03,SH-B,permanent,senior,2018-11-12
+EMP-1010,Divya,Menon,ROL-DMGR,DEP-MNT,,SH-GEN,permanent,expert,2016-06-06
+EMP-1011,Suresh,Iyer,ROL-MENG,DEP-MNT,,SH-A,permanent,expert,2016-05-23
+EMP-1012,Vinod,Balan,ROL-MENG,DEP-MNT,,SH-A,permanent,senior,2017-08-21
+EMP-1013,Latha,Chandran,ROL-MTECH,DEP-MNT,,SH-GEN,permanent,intermediate,2020-02-10
+EMP-1014,Ganesh,Pillai,ROL-MENG,DEP-MNT,,SH-C,permanent,senior,2017-02-13
+EMP-1015,Arjun,Das,ROL-MTECH,DEP-MNT,,SH-A,contract,junior,2022-07-04
+EMP-1020,Fathima,Rasheed,ROL-QINS,DEP-QLT,,SH-A,permanent,senior,2018-03-19
+EMP-1030,Mohan,Kurup,ROL-STK,DEP-WHS,,SH-A,permanent,intermediate,2019-09-02

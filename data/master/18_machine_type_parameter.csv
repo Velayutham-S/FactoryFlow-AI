@@ -1,0 +1,10 @@
+machine_type_code,machine_parameter_code,nominal_value,normal_min,normal_max,sampling_interval_seconds,is_ml_feature,expected_drift_direction,sensor_accuracy_pct,criticality_weight
+MTY-VMC-500,PRM-TEMP,58.0000,45.0000,72.0000,10,1,increasing,1.50,1.40
+MTY-VMC-500,PRM-RPM,6000.0000,500.0000,12000.0000,5,1,decreasing,0.50,0.80
+MTY-VMC-500,PRM-TORQ,62.0000,20.0000,88.0000,5,1,increasing,2.00,1.30
+MTY-VMC-500,PRM-TWEAR,30.0000,0.0000,85.0000,60,1,increasing,3.00,1.20
+MTY-VMC-500,PRM-VIB,2.1000,0.5000,4.5000,10,1,increasing,2.50,1.50
+MTY-VMC-500,PRM-PWR,12.4000,6.0000,17.5000,30,1,increasing,1.00,0.90
+MTY-CONV-BELT-12,PRM-RPM,90.0000,60.0000,120.0000,15,0,none,1.00,
+MTY-CONV-BELT-12,PRM-PWR,3.1000,2.0000,4.2000,30,1,increasing,1.50,1.60
+MTY-CONV-BELT-12,PRM-TEMP,41.0000,30.0000,58.0000,60,1,increasing,2.00,1.10

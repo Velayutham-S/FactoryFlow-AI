@@ -1,0 +1,4 @@
+customer_code,customer_name,priority_tier,industry_sector,city,country_code,late_delivery_penalty_per_day,contractual_otd_target_pct,annual_order_value
+CUS-001,Apex Drivetrain Systems,gold,Automotive,Pune,IN,12000.00,98.00,42000000.00
+CUS-002,Marine Pumps International,silver,Marine Equipment,Kochi,IN,8000.00,95.00,26500000.00
+CUS-003,Hydroline Controls,bronze,Industrial Automation,Ahmedabad,IN,,92.00,9800000.00

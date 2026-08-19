@@ -1,0 +1,9 @@
+machine_code,machine_name,machine_type_code,production_line_code,line_position,criticality,is_bottleneck,downstream_buffer_units,rated_capacity_units_per_hour,lifecycle_status,is_monitored,alert_threshold_profile_code,serial_number,installation_date,commissioned_date
+MC-0101,Housing Rough Mill,MTY-VMC-500,LN-01,1,critical,1,18,26.00,in_service,1,ATP-VMC-TIGHT,MMT-VMC-2016-4471,2016-07-12,2016-07-26
+MC-0102,Housing Finish Turn,MTY-CNC-LATHE-200,LN-01,2,high,0,12,31.00,in_service,1,ATP-LATHE-STD,MMT-TC-2016-2318,2016-07-20,2016-08-03
+MC-0103,Housing Final Inspection,MTY-CMM-BRIDGE,LN-01,3,standard,0,0,,in_service,0,,KME-BCM-2016-0912,2016-08-05,2016-08-19
+MC-0201,Pump Body Weld Cell,MTY-ROBO-WELD-6X,LN-02,1,critical,1,6,12.00,in_service,1,ATP-ROBO-STD,AAU-RW6X-2017-1185,2017-04-10,2017-04-24
+MC-0202,Assembly Transfer Conveyor,MTY-CONV-BELT-12,LN-02,2,standard,0,0,40.00,in_service,1,ATP-CONV-STD,BXC-BC12-2017-3340,2017-04-18,2017-05-02
+MC-0301,Valve Body Turn,MTY-CNC-LATHE-200,LN-03,1,high,1,24,38.00,in_service,1,ATP-LATHE-STD,MMT-TC-2018-2907,2018-10-08,2018-10-22
+MC-0302,Valve Body Mill,MTY-VMC-500,LN-03,2,standard,0,0,44.00,in_service,1,ATP-VMC-STD,MMT-VMC-2018-5126,2018-10-15,2018-10-29
+MC-0401,Carton Seal Unit,MTY-CARTON-SEAL-3,LN-04,1,standard,1,0,130.00,in_service,1,ATP-SEAL-STD,SPS-CS3-2019-0774,2019-02-11,2019-02-25

@@ -1,0 +1,6 @@
+machine_category_code,category_name,equipment_class,primary_maintenance_specialization,is_rotating_equipment,requires_condition_monitoring,typical_service_life_years
+MCAT-CNC,CNC Machining,rotating,mechanical,1,1,15
+MCAT-ASM,Assembly Automation,robotic,automation,0,1,12
+MCAT-MHL,Material Handling,conveying,mechanical,1,1,20
+MCAT-PKG,Packaging Equipment,static,mechanical,0,1,10
+MCAT-INS,Inspection & Metrology,metrology,automation,0,0,12

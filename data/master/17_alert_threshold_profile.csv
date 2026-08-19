@@ -1,0 +1,7 @@
+alert_threshold_profile_code,profile_name,machine_type_code,version,is_default,sensitivity,effective_from_date,review_due_date
+ATP-VMC-STD,VMC-500 Standard Monitoring,MTY-VMC-500,2,1,standard,2025-04-01,2026-04-01
+ATP-VMC-TIGHT,VMC-500 Tightened Monitoring,MTY-VMC-500,1,0,tight,2025-06-15,2026-06-15
+ATP-LATHE-STD,Lathe-200 Standard Monitoring,MTY-CNC-LATHE-200,1,1,standard,2025-04-01,2026-04-01
+ATP-ROBO-STD,Robotic Weld Cell Standard,MTY-ROBO-WELD-6X,1,1,standard,2025-04-01,2026-04-01
+ATP-CONV-STD,Conveyor Standard Monitoring,MTY-CONV-BELT-12,1,1,relaxed,2025-04-01,
+ATP-SEAL-STD,Carton Sealer Standard,MTY-CARTON-SEAL-3,1,1,standard,2025-04-01,

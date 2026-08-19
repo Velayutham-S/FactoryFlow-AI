@@ -1,0 +1,13 @@
+failure_category_code,category_name,failure_domain,default_severity_level_code,required_specialization,requires_spare_part,has_safety_implication,description
+FC-SPDL,Spindle Failure,mechanical,SEV-1,mechanical,1,1,"Spindle bearing seizure or loss of spindle accuracy. Replacement parts are required and the failure carries a safety implication."
+FC-OVHT,Thermal Overload,thermal,SEV-1,mechanical,0,1,"Thermal overload of the spindle or drive assembly. Carries a safety implication and is corrected without spare parts."
+FC-BRG,Bearing Degradation,mechanical,SEV-2,mechanical,1,0,"Progressive bearing wear observed as rising vibration. A replacement bearing is required."
+FC-MOTR,Drive Motor Fault,electrical,SEV-2,electrical,1,0,"Fault in the drive motor or its servo module. A replacement electrical part is required."
+FC-LUBR,Lubrication System Failure,mechanical,SEV-2,mechanical,1,0,"Loss of lubricant delivery or pressure in the lubrication circuit. A replacement part is required."
+FC-CTRL,Control System Fault,automation,SEV-2,automation,0,0,"Controller, communication or program fault in the automation system. Corrected without spare parts."
+FC-TOOL,Excessive Tool Wear or Breakage,tooling,SEV-3,mechanical,1,0,"Cutting tool worn beyond its usable limit or broken during a cut. Replacement tooling is required."
+FC-BELT,Belt or Chain Wear,mechanical,SEV-3,mechanical,1,0,"Wear, slippage or breakage of a drive belt or chain. A replacement part is required."
+FC-ALGN,Misalignment or Imbalance,mechanical,SEV-3,mechanical,0,0,"Shaft misalignment or rotating imbalance. Corrected by adjustment without spare parts."
+FC-SENS,Sensor or Instrumentation Fault,instrumentation,SEV-3,automation,1,0,"Sensor drift, disconnection or instrumentation failure. A replacement sensor is required."
+FC-PNEU,Pneumatic Pressure Loss,pneumatic,SEV-3,mechanical,0,0,"Loss of compressed air pressure in the pneumatic circuit. Corrected without spare parts."
+FC-JAM,Material Jam or Blockage,process,SEV-3,mechanical,0,1,"Material jam or blockage obstructing the process. Carries a safety implication and is cleared without spare parts."

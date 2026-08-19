@@ -1,0 +1,6 @@
+maintenance_engineer_code,worker_code,maintenance_team_code,primary_specialization,is_team_lead,years_experience,certification_expiry_date,is_on_call,secondary_specialization
+ENG-01,EMP-1011,MTM-MECH,mechanical,1,12,2027-06-30,1,electrical
+ENG-02,EMP-1012,MTM-ELEC,electrical,1,8,2026-11-15,1,
+ENG-03,EMP-1013,MTM-AUTO,automation,1,5,2028-02-28,0,
+ENG-04,EMP-1014,MTM-NIGHT,general,1,9,2027-09-30,1,mechanical
+ENG-05,EMP-1015,MTM-MECH,mechanical,0,3,2026-08-31,0,

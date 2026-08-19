@@ -1,0 +1,2 @@
+plant_code,plant_name,address_line,city,state_region,country_code,timezone,currency_code,operating_days_per_week,shifts_per_day,commissioned_date
+PLT-01,Northgate Precision Works,"Plot 14, SIDCO Industrial Estate, Kurichi",Coimbatore,Tamil Nadu,IN,Asia/Kolkata,INR,6,3,2016-04-01

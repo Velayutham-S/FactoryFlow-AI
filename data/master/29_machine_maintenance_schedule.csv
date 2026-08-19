@@ -1,0 +1,9 @@
+machine_maintenance_schedule_code,machine_code,maintenance_type,interval_basis,interval_value,estimated_duration_minutes,requires_line_stop,assigned_maintenance_team_code,required_inventory_item_code,baseline_start_date,can_be_deferred,max_deferral_days
+SCH-0001,MC-0101,preventive,operating_hours,500,120,1,MTM-MECH,,2024-01-08,1,14
+SCH-0002,MC-0101,lubrication,operating_hours,120,30,0,MTM-MECH,,2024-01-08,1,3
+SCH-0003,MC-0101,calibration,calendar_days,180,240,1,MTM-AUTO,,2024-02-01,0,
+SCH-0004,MC-0102,preventive,operating_hours,500,100,1,MTM-MECH,,2024-01-15,1,14
+SCH-0005,MC-0201,preventive,operating_hours,400,180,1,MTM-AUTO,INV-CP-SERVO-D4,2024-01-22,1,10
+SCH-0006,MC-0202,inspection,calendar_days,30,45,0,MTM-MECH,,2024-01-05,1,7
+SCH-0007,MC-0301,preventive,operating_hours,500,120,1,MTM-MECH,,2024-02-12,1,14
+SCH-0008,MC-0401,inspection,calendar_days,60,30,0,MTM-MECH,,2024-01-19,1,14

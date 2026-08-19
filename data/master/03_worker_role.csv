@@ -1,0 +1,11 @@
+worker_role_code,role_name,role_category,is_managerial,seniority_rank,can_authorize_line_stop,can_authorize_maintenance,requires_certification
+ROL-OP,Machine Operator,operator,0,1,0,0,0
+ROL-SRO,Senior Operator,operator,0,2,1,0,0
+ROL-MTECH,Maintenance Technician,technician,0,2,0,0,1
+ROL-QINS,Quality Inspector,inspector,0,3,1,0,1
+ROL-MENG,Maintenance Engineer,engineer,0,4,1,1,1
+ROL-LSUP,Line Supervisor,supervisor,1,4,1,1,0
+ROL-PLAN,Production Planner,planner,0,3,0,0,0
+ROL-STK,Store Keeper,storekeeper,0,2,0,0,0
+ROL-DMGR,Department Manager,manager,1,7,1,1,0
+ROL-PMGR,Plant Manager,manager,1,9,1,1,0

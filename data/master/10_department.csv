@@ -1,0 +1,6 @@
+department_code,plant_code,department_name,department_function,cost_center_code,escalation_email,headcount_budget
+DEP-PRD,PLT-01,Production,production,CC-2100,production@northgate.example,62
+DEP-MNT,PLT-01,Maintenance,maintenance,CC-2200,maintenance@northgate.example,18
+DEP-QLT,PLT-01,Quality Assurance,quality,CC-2300,quality@northgate.example,9
+DEP-WHS,PLT-01,Warehouse & Logistics,warehouse,CC-2400,stores@northgate.example,11
+DEP-PLN,PLT-01,Production Planning,planning,CC-2500,planning@northgate.example,5

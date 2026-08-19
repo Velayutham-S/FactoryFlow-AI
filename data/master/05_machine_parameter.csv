@@ -1,0 +1,8 @@
+machine_parameter_code,parameter_name,unit_of_measure,measurement_domain,data_type,physical_min,physical_max,degradation_direction,is_cumulative
+PRM-TEMP,Spindle Temperature,°C,thermal,numeric_continuous,0.0000,150.0000,increasing,0
+PRM-RPM,Rotational Speed,rpm,mechanical,numeric_integer,0.0000,15000.0000,bidirectional,0
+PRM-TORQ,Spindle Torque,Nm,mechanical,numeric_continuous,0.0000,200.0000,increasing,0
+PRM-TWEAR,Tool Wear,%,tooling,numeric_continuous,0.0000,100.0000,increasing,1
+PRM-VIB,Vibration Velocity,mm/s,mechanical,numeric_continuous,0.0000,50.0000,increasing,0
+PRM-PWR,Power Draw,kW,electrical,numeric_continuous,0.0000,60.0000,bidirectional,0
+PRM-AIRP,Compressed Air Pressure,bar,pneumatic,numeric_continuous,0.0000,12.0000,decreasing,0

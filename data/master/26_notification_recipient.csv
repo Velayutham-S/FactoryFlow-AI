@@ -1,0 +1,6 @@
+worker_code,min_severity_level_code,email_enabled,whatsapp_enabled,scope_production_line_code,notify_outside_shift_hours,escalation_order,max_notifications_per_hour
+EMP-1002,SEV-3,1,1,LN-01,0,1,6
+EMP-1004,SEV-3,1,1,LN-02,0,1,6
+EMP-1014,SEV-2,0,1,,1,1,8
+EMP-1010,SEV-2,1,1,,1,2,10
+EMP-1001,SEV-1,1,0,,1,3,4

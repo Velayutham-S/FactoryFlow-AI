@@ -1,0 +1,12 @@
+inventory_item_code,item_name,item_type,unit_of_measure,unit_cost,reorder_point,safety_stock_qty,max_stock_qty,lead_time_days,primary_supplier_code,default_inventory_location_code,is_critical_spare,abc_class
+INV-RM-CI250,Cast Iron Blank CI-250,raw_material,EA,780.00,300.00,150.00,1200.00,14,SUP-001,LOC-RM-A1,0,A
+INV-RM-AL6061,Aluminium Billet 6061,raw_material,EA,520.00,200.00,100.00,900.00,10,SUP-001,LOC-RM-A1,0,B
+INV-RM-AL7075,Aluminium Billet 7075,raw_material,EA,610.00,80.00,40.00,300.00,12,SUP-001,LOC-RM-A1,0,C
+INV-CM-IMP-220,Impeller IMP-220,component,EA,3200.00,40.00,20.00,150.00,21,SUP-004,LOC-RM-A1,0,A
+INV-CM-SHFT-45,Pump Shaft 45 mm,component,EA,1450.00,60.00,30.00,200.00,18,SUP-004,LOC-RM-A1,0,B
+INV-CM-SEAL-K12,Mechanical Seal Kit K12,component,SET,890.00,50.00,25.00,180.00,15,SUP-004,LOC-RM-A1,0,B
+INV-CP-BRG-6205,Spindle Bearing 6205-2RS,spare_part,EA,2150.00,8.00,4.00,24.00,7,SUP-002,LOC-SP-B2,1,A
+INV-CP-BELT-V38,Spindle Drive Belt V-38,spare_part,EA,640.00,6.00,3.00,18.00,7,SUP-002,LOC-SP-B2,1,B
+INV-CP-SERVO-D4,Servo Drive Module D4,spare_part,EA,48500.00,1.00,1.00,3.00,30,SUP-002,LOC-SP-B2,1,A
+INV-CN-COOL-20L,Cutting Coolant Concentrate,consumable,L,145.00,200.00,100.00,600.00,5,SUP-003,LOC-RM-A1,0,C
+INV-TL-EM-C12,Carbide End Mill 12 mm,tooling,EA,1850.00,20.00,10.00,80.00,12,SUP-002,LOC-TC-01,0,B

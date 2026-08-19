@@ -1,0 +1,8 @@
+plant_area_code,plant_code,area_name,area_type,floor_level,floor_space_sqm,nominal_ambient_temp_c,is_climate_controlled,access_restriction
+AREA-MCH,PLT-01,Machining Bay,production,0,1850.00,34.00,0,general
+AREA-ASM,PLT-01,Assembly Hall,assembly,0,1200.00,28.00,0,general
+AREA-PKG,PLT-01,Packaging & Dispatch,dispatch,0,640.00,31.00,0,general
+AREA-WHR,PLT-01,Raw Material Warehouse,warehouse,0,980.00,32.00,0,authorized_only
+AREA-SPR,PLT-01,Spare Parts Store,spare_parts_store,0,180.00,29.00,0,authorized_only
+AREA-MNT,PLT-01,Maintenance Workshop,maintenance_workshop,0,320.00,30.00,0,authorized_only
+AREA-QLB,PLT-01,Quality Laboratory,quality_lab,1,150.00,22.00,1,restricted
