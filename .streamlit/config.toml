@@ -1,0 +1,37 @@
+# Streamlit configuration for the FactoryFlow AI dashboard.
+#
+# Presentation and error-reporting only. Nothing here changes backend behaviour, and no
+# secret appears in this file: the database path comes from FACTORYFLOW_DB, and the Groq and
+# Meta credentials stay in .env, which the dashboard never opens.
+
+[theme]
+# A restrained industrial palette suited to a control-room screen. The accent is the same
+# information blue the dashboard's charts use, so Streamlit's native widgets and the custom
+# cards agree rather than competing.
+base = "dark"
+primaryColor = "#3C7FD4"
+backgroundColor = "#12161C"
+secondaryBackgroundColor = "#1A2029"
+textColor = "#E4E8ED"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# An operator must never be shown a traceback. Database and selection faults are reported in
+# plain language by the app itself; anything unexpected goes to the log rather than the
+# screen. Set this to "full" locally when debugging.
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[server]
+# Bound to the loopback interface deliberately. The dashboard has no authentication, and
+# Streamlit's default is to listen on every interface -- which would publish the whole
+# plant's operational data to anyone who can reach the port. Read-only is not the same as
+# safe to expose.
+#
+# To share it, do NOT simply widen this. Put the app behind an authenticating reverse proxy
+# and let that proxy reach 127.0.0.1, or run with an explicit
+# `--server.address 0.0.0.0` once an authentication layer is in front of it.
+address = "127.0.0.1"
